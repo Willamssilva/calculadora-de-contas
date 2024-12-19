@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(../images/pexels-karolina-grabowska-6958525.jpg);
+  background-size: auto;
+  
+  background-repeat: no-repeat;
+}
+
+input {
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 7px 7px;
+}
+
+#section-form {
+  margin: auto;
+  margin-top: 100px;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background-color: #c9c9c925;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.438);
+}
+
+#section-form:hover {
+  overflow: auto;
+}
+
+#section-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  gap: 15px;
+}
+#section-form #registro {
+  margin: auto;
+  justify-content: center;
+  padding: 5px 5px;
+  background-color: #0b57d0;
+  color: #fafafa;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 20px;
+  max-width: 220px;
+  min-width: 220px;
+  cursor: pointer;
+}
+#section-form #registro:hover {
+  transition: 1s;
+  background-color: #02a00a;
+  transform: scale(1.05);
+}
+
+#section-form h3 {
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+input:focus {
+  border-color: #0b57d0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.363);
+}
